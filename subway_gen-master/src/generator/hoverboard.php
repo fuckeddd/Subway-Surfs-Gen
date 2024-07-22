@@ -37,7 +37,7 @@ function getItemId($itemNumber, $jsonArray)
 }
 
 // Fetch and decode the json file
-$json_url = 'https://github.com/HerrErde/subway-source/releases/latest/download/boards_data.json';
+$json_url = 'https://raw.githubusercontent.com/fuckeddd/Fixed-Boards/main/boards_inventory.json';
 $json_data = file_get_contents($json_url);
 $item_data = json_decode($json_data, true);
 
